@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<workspaceFilter version="1.0">
-    <filter root="/conf/graphqlMeshDemo" mode="merge"/>
-    <filter root="/content/graphqlMeshDemo" mode="merge"/>
-    <filter root="/content/dam/graphqlMeshDemo/asset.jpg" mode="merge"/>
-    <filter root="/content/experience-fragments/graphqlMeshDemo" mode="merge"/>
-</workspaceFilter>
