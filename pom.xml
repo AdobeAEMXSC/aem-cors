@@ -27,14 +27,16 @@
     <description>Graphql Mesh Demo</description>
 
     <modules>
-        <module>all</module>
-        <module>ui.frontend</module>
-        <module>ui.apps</module>
-        <module>ui.apps.structure</module>
         <module>ui.config</module>
-        <module>ui.content</module>
+        <module>ui.apps.structure</module>
         <module>it.tests</module>
+        <!--
+        <module>all</module>
+        <module>ui.apps</module>
+        <module>ui.frontend</module>
+        <module>ui.content</module>
         <module>ui.tests</module>
+        -->
     </modules>
 
     <properties>
