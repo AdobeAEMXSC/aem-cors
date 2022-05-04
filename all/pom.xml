@@ -56,23 +56,6 @@
                     <embeddeds>
                         <embedded>
                             <groupId>com.adobe.aem.graphmeshdemo</groupId>
-                            <artifactId>graphqlMeshDemo.ui.apps</artifactId>
-                            <type>zip</type>
-                            <target>/apps/graphqlMeshDemo-packages/application/install</target>
-                        </embedded>
-                        <embedded>
-                            <groupId>com.adobe.aem.graphmeshdemo</groupId>
-                            <artifactId>graphqlMeshDemo.core</artifactId>
-                            <target>/apps/graphqlMeshDemo-packages/application/install</target>
-                        </embedded>
-                        <embedded>
-                            <groupId>com.adobe.aem.graphmeshdemo</groupId>
-                            <artifactId>graphqlMeshDemo.ui.content</artifactId>
-                            <type>zip</type>
-                            <target>/apps/graphqlMeshDemo-packages/content/install</target>
-                        </embedded>
-                        <embedded>
-                            <groupId>com.adobe.aem.graphmeshdemo</groupId>
                             <artifactId>graphqlMeshDemo.ui.config</artifactId>
                             <type>zip</type>
                             <target>/apps/graphqlMeshDemo-packages/application/install</target>
@@ -180,22 +163,9 @@
     <dependencies>
         <dependency>
             <groupId>com.adobe.aem.graphmeshdemo</groupId>
-            <artifactId>graphqlMeshDemo.ui.apps</artifactId>
-            <version>${project.version}</version>
-            <type>zip</type>
-        </dependency>
-        <dependency>
-            <groupId>com.adobe.aem.graphmeshdemo</groupId>
-            <artifactId>graphqlMeshDemo.ui.content</artifactId>
-            <version>${project.version}</version>
-            <type>zip</type>
-        </dependency>
-        <dependency>
-            <groupId>com.adobe.aem.graphmeshdemo</groupId>
             <artifactId>graphqlMeshDemo.ui.config</artifactId>
             <version>${project.version}</version>
             <type>zip</type>
         </dependency>
-
     </dependencies>
 </project>
