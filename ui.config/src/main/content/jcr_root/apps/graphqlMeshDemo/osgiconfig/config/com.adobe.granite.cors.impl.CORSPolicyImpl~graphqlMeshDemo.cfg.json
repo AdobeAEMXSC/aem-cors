@@ -1,6 +1,6 @@
 {
-  "alloworigin": ["http://localhost:3000"],
-  "allowedpaths": ["/(content|conf)/graphqlMeshDemo.*"],
+  "alloworigin": [""],
+  "allowedpaths": ["/(content|conf)/graphqlMeshDemo.*", "/content/cq:graphql/aem-demo-assets/endpoint.json"],
   "supportedheaders": [
     "Authorization",
     "Origin",
@@ -11,5 +11,5 @@
     "Access-Control-Request-Headers"
   ],
   "supportedmethods": ["GET","HEAD"],
-  "alloworiginregexp": []
+  "alloworiginregexp": ["https://.*\\.amazonaws\\.com"]
 }
